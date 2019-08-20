@@ -19,19 +19,20 @@ The operational excellence pillar focuses on running and monitoring systems to d
 The security pillar focuses on protecting information & systems. Key topics include confidentiality and integrity of data, identifying and managing who can do what with privilege management, protecting systems, and establishing controls to detect security events. 
 
 * Create account programatically
-* IAM
+* Role: IAM
 * ConfigFiles & System Manager/Parameter Store
 * Alerts - CloudWatch, CloudTrail, GuardDuty
-* Apply security at all layers - VPC, CloudFront, AWS Shield(DDos), WAF, Security groups
-    - Everything in VPC
-    - Public Subnet: ELB
-    - Private Subnet 1: ECS/Services
-    - Private Subnet 2: Databases
+* Apply security at all layers:
+    - VPC, CloudFront, AWS Shield(DDos), WAF, Security groups
+    Everything in VPC
+        - Public Subnet: ELB
+        - Private Subnet 1: ECS/Services
+        - Private Subnet 2: Databases
 * Data classification - High/Low
 * Protect data at rest - KMS
 * Protect data in transit - TLS, encoded/encryption/tokenisation
 * Keep people away from data
-* Separate AWS instances
+* Separate account/instances
 
 ## 3. Reliability
 The reliability pillar focuses on the ability to prevent, and quickly recover from failures to meet business and customer demand. Key topics include foundational elements around setup, cross project requirements, recovery planning, and how we handle change.
@@ -53,7 +54,7 @@ The performance efficiency pillar focuses on using IT and computing resources ef
 * Storage - CAP, Latency, Durability, Scalability and Query Capability
 * Caching - ElasticCache
 * CDN - CloudFront
-* Route53 - Latency based routing
+* DNS - Route53 - Latency based routing
 
 
 ## 5. Cost Optimisation
