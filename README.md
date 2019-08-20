@@ -11,6 +11,7 @@ The operational excellence pillar focuses on running and monitoring systems to d
 * Perform operations as code - Bash files
 * Monitoring - CloudWatch, CloudTrail
 * CI/CD - Packer, Jenkins, Buildkite
+* Disaster Recovery
 * Playbooks/RunBooks
 * Game days - ChaosMonkey
 
