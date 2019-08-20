@@ -60,7 +60,7 @@ The performance efficiency pillar focuses on using IT and computing resources ef
 ## 5. Cost Optimisation
 Cost Optimisation focuses on avoiding un-needed costs. Key topics include understanding and controlling where money is being spent, selecting the most appropriate and right number of resource types, analysing spend over time, and scaling to meet business needs without overspending.
 
-* CAPEX vs OPEX
 * Machine instances
 * On Demand + Spot instances
 * Metrics based scaling: CloudWatch Alarm/Alarm, AutoScaling group 
+* Tools
