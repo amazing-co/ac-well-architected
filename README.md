@@ -7,10 +7,10 @@ Architecture framewwork based on [AWS Well-Architected](https://aws.amazon.com/a
 ## 1. Operational Excellence
 The operational excellence pillar focuses on running and monitoring systems to deliver business value, and continually improving processes and procedures. Key topics include managing and automating changes, responding to events, and defining standards to successfully manage daily operations.
 
-* Infrastructure as code - CloudFormation, Terraform
+* Infrastructure as code - CloudFormation, Terraform, Ansible
 * Perform operations as code - Bash files
 * Monitoring - CloudWatch, CloudTrail
-* CI/CD - Packer, Jenkins, Buildkite
+* CI/CD - Packer, Jenkins, Buildkite, Ansible, Bamboo, Octopus
 * Disaster Recovery
 * Playbooks/RunBooks
 * Game days - ChaosMonkey
