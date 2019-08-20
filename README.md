@@ -37,13 +37,13 @@ The reliability pillar focuses on the ability to prevent, and quickly recover fr
 
 * Automatically recover from failures - SQS/Lambda retries
 * Scale horizontally to increase aggregate system availability - Small instances, Auto-scalling group
-* Multi A-Z
+* Multi Avilability Zones
 * Self healing
 
 ## 4. Performance Efficiency
 The performance efficiency pillar focuses on using IT and computing resources efficiently. Key topics include selecting the right resource types and sizes based on workload requirements, monitoring performance, and making informed decisions to maintain efficiency as business needs evolve.
 
-* Right AWS services
+* Right tool for the right project
 * Democratize advanced technologies - NoSQL, Media transcoding, Machine learning
 * Go global in minutes
 * Instances(SSDs and GPUs), ECS/EKS for services(Flexibility/Portability) and Serverless for simpler services
