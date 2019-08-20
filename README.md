@@ -10,7 +10,7 @@ The operational excellence pillar focuses on running and monitoring systems to d
 * Infrastructure as code - CloudFormation, Terraform, Ansible
 * Perform operations as code - Bash files
 * Monitoring - CloudWatch, CloudTrail
-* CI/CD - Packer, Jenkins, Buildkite, Ansible, Bamboo, Octopus
+* CI/CD - Packer, Jenkins, Buildkite, CircleCI, Ansible, Bamboo, Octopus
 * Disaster Recovery
 * Playbooks/RunBooks
 * Game days - ChaosMonkey
@@ -21,7 +21,7 @@ The security pillar focuses on protecting information & systems. Key topics incl
 * Create account programatically
 * IAM
 * ConfigFiles & System Manager/Parameter Store
-* Monitoring/Alerts - CloudWatch, CloudTrail, GuardDuty
+* Alerts - CloudWatch, CloudTrail, GuardDuty
 * Apply security at all layers - VPC, CloudFront, AWS Shield(DDos), WAF, Security groups
     - Everything in VPC
     - Public Subnet: ELB
@@ -47,7 +47,7 @@ The performance efficiency pillar focuses on using IT and computing resources ef
 * Right tool for the right project
 * Democratize advanced technologies - NoSQL, Media transcoding, Machine learning
 * Go global in minutes
-* Instances(SSDs and GPUs), ECS/EKS for services(Flexibility/Portability) and Serverless for simpler services
+* Instances(SSDs and GPUs): ECS/EKS for services(Flexibility/Portability) and Serverless for simpler services
 * Experiment more often
 * Consult with experts
 * Storage - CAP, Latency, Durability, Scalability and Query Capability
@@ -60,7 +60,6 @@ The performance efficiency pillar focuses on using IT and computing resources ef
 Cost Optimisation focuses on avoiding un-needed costs. Key topics include understanding and controlling where money is being spent, selecting the most appropriate and right number of resource types, analysing spend over time, and scaling to meet business needs without overspending.
 
 * CAPEX vs OPEX
-* EC2 instances
+* Machine instances
 * On Demand + Spot instances
-* CloudWatch Alarm/Lambda
-* AutoScaling group
+* Metrics based scaling: CloudWatch Alarm/Alarm, AutoScaling group 
