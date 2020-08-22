@@ -38,8 +38,8 @@ The security pillar focuses on protecting information & systems. Key topics incl
 The reliability pillar focuses on the ability to prevent, and quickly recover from failures to meet business and customer demand. Key topics include foundational elements around setup, cross project requirements, recovery planning, and how we handle change.
 
 * Automatically recover from failures - SQS/Lambda retries
-* Scale horizontally to increase aggregate system availability - Small instances, Auto-scalling group
-* Multi Avilability Zones
+* Scale horizontally to increase aggregate system availability - Small instances, Auto-scaling group
+* Multi Availability Zones
 * Self healing
 
 ## 4. Performance Efficiency
